@@ -1,0 +1,703 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(193, 194, 194);
+}
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 30px 0px;
+}
+header .menu{
+    display: none;
+}
+.hero{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.hero h1{
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+}
+.design{
+    color: dodgerblue;
+    font-weight: 800;
+    font-size: 60px;
+}
+.blue{
+    color: dodgerblue;
+}
+.underline{
+    text-decoration: underline;
+}
+.hero .text{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 30px;
+    max-width: 1000px;
+    text-align: center;
+    color: rgba(93, 94, 94, 0.932);
+}
+.hero .blue{
+    color: dodgerblue;
+}
+.subhero{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 10px;
+}
+.subhero div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subhero i{
+    font-size: 20px;
+    color: dodgerblue;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+}
+.subhero p{
+    padding: 10px;
+}
+.hero button{
+    background-color: dodgerblue;
+    margin: 10px;
+    padding: 20px 30px;
+    display: flex;
+    border-radius: 20px;
+    border: 1px solid;
+    color: white;
+    gap: 10px;
+}
+.hero button p{
+    font-size: 15px;
+}
+.logo{
+    font-size: 20px;
+    color:dodgerblue;
+    font-weight: 700;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    gap: 50px;
+}
+a{
+    text-decoration: none;
+    color:rgb(50, 48, 48);
+    font-weight: 700;
+}
+a:hover{
+    color: dodgerblue;
+}
+.next{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.next h1{
+    font-weight: 700;
+    font-size: 50px;
+    padding: 30px;
+}
+.next .p{
+    color: rgb(32, 32, 32);
+    font-size: 20px;
+    padding: 30px;
+}
+.next h2{
+    padding: 30px;
+}
+.next h3{
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(47, 47, 47);
+    font-weight: 20;
+}
+.nexthero{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+.nexthero div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nexthero h4{
+    font-size: 50px;
+    font-weight: 600;
+    color: dodgerblue;
+}
+.third{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;   
+}
+.third .flex{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img{
+    height: 700px;
+}
+.who{
+padding: 50px;
+width: 100%;
+display: flex;
+flex-direction:column;
+align-items: start;
+gap: 70px;
+
+}
+.who h1{
+    padding: 50px;
+    color:dodgerblue;
+    font-size: 70px;
+}
+.who h2{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 200;
+    background-color: rgb(249, 249, 248);
+    border-radius: 20px;
+}
+.who p{
+    padding: 30px;
+    font-size: 20px;
+    background-color:rgb(249, 249, 248);
+    border-radius: 30px;
+}
+.who button{
+    font-size: 25px;
+    font-weight: 700;
+    background-color: white;
+    color: dodgerblue;
+    border-radius: 40px;
+    padding: 20px;
+    border-color: dodgerblue;
+}
+.who button:hover{
+    color: dodgerblue;
+}
+
+.fourth{
+    max-width: 75rem;
+    margin: auto;
+    padding: 30px;
+}
+.fourth h1{
+    font-size: 50px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+    padding: 20px;
+}
+.fourth h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+.fourth .list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap:20px;
+    color: rgb(46, 45, 45);
+}
+.fourth .list .parent{
+    border: 1px solid rgb(148, 146, 146);
+    padding: 40px;
+    border-radius: 20px;
+    width: 200px;
+}
+.fourth .list .parent:hover{
+    border: 1px solid rgb(70, 174, 234);
+}
+.list .parent ul{
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: column;
+    gap: 15px; 
+
+}
+.list .parent .top{
+    display: flex;
+    gap: 10px;
+}
+.list .parent .circle{
+    height: 15px;
+    width: 15px;
+    border-radius:100%;
+}
+.list .parent .dodgeblue{
+    background-color: dodgerblue;
+}
+.list .parent .orange{
+    background-color: rgb(241, 152, 120);
+}
+.list .parent .green{
+    background-color: green;
+}
+.list .parent .red{
+    background-color: red;
+}
+.five{
+    max-width: 73rem;
+    margin: auto;
+}
+.five h1{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.five .fifth .colourful{
+    border: 1px solid rgb(153, 180, 206);
+    border-radius: 20px;
+    color: rgb(22, 107, 192);
+    padding: 5px;
+    font-size: 12px;
+}
+.fifth{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.five .fifth .display{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.five .fifth .display span{
+    font-size: 10px;
+    padding: 5px 10px;
+    background: rgb(221, 217, 217);
+    border-radius: 5px;
+    height: fit-content;
+}
+.fifth h4{
+    color: rgb(49, 47, 47);
+}
+.fifth .one{
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 500px;
+    border: 1px solid rgb(74, 98, 122);
+}
+.fifth p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: rgb(80, 79, 79);
+}
+.fifth .one .all{
+    margin-top: 15px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.fifth .one .all .dodgeblue{
+    background: rgb(166, 177, 189);
+    color:rgb(88, 127, 165);
+    border: 1px solid dodgerblue;
+}
+.fifth .one .all .green{
+    background: rgb(225, 247, 225);
+    color: rgb(5, 85, 5);
+    border: 1px solid rgb(116, 152, 116);
+}
+.fifth .one .all .orange{
+    background: rgb(213, 207, 196);
+    color: rgb(144, 118, 70);
+    border: 1px solid orange;
+}
+.fifth .one .all .pink{
+    background: rgb(172, 165, 166);
+    color: rgb(173, 104, 115);
+    border: 1px solid pink;
+}
+.six{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.six .first{
+    background:linear-gradient( to bottom right, rgb(101, 127, 153), white);
+    padding: 30px;
+    background-color: rgb(189, 215, 241);
+    max-width: 700px;
+    border: 1px solid  rgb(113, 144, 175);
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+
+}
+.six .second{
+    background:linear-gradient( to bottom right, rgb(101, 127, 153), white);
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(189, 215, 241);
+    max-width: 700px;
+    border: 1px solid rgb(113, 144, 175);
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 20px;
+    position: relative;
+}
+.six .first i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(65, 125, 184);
+}
+.six .second i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(65, 125, 184);
+}
+.six h1{
+    font-size: 35px;
+}
+.six h2{
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(150, 201, 251);
+    border-radius: 20px;
+    padding: 10px;
+    color: dodgerblue;
+}
+.seven{
+    max-width: 75rem;
+    margin: auto;
+}
+.seven .top{
+    text-align: center;
+    padding: 50px;
+}
+.seven .top p{
+    padding: 30px;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+.seven .one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+.seven .one .first{
+    border: 20px;
+    max-width: 500px;
+    border-radius: 20px;
+    background-color: rgb(238, 240, 244);
+    padding: 20px;
+}
+.seven .one .first img{
+    width: 100%;
+}
+.seven .one .colourful{
+    border: 1px solid rgb(93, 131, 170);
+    border-radius: 20px;
+    color: rgb(22, 107, 192);
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.seven .one h2{
+    color: dodgerblue;
+    font-size: 15px;
+    padding: 10px;
+}
+.seven .one h1{
+    font-size: 20px;
+    padding: 10px;
+}
+.seven .one h3{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 100;
+}
+.seven .one p{
+    padding: 20px;
+}
+.seven .buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.seven .one button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: 10px;
+}
+.eight{
+    background:linear-gradient( to bottom right,black,rgb(51, 7, 51));
+    padding: 70px 0px;
+}
+ .eight .contain{
+    max-width: 75rem;
+    margin: auto;
+ }
+.eight .tail{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    font-size:20px;
+}
+.eight .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.eight .address{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.eight .address p{
+    color: white;
+}
+.eight .address h1{
+    color: white;
+}
+.eight .address h2{
+    font-size: 15px;
+    color: white;
+}
+
+.eight .last{
+    margin-top: 30px;
+    max-width: 100%;
+    background-color: rgb(46, 46, 46);
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid rgb(76, 75, 75);
+}
+.eight .last h1{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+}
+.eight .last h2{
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(32, 185, 50);
+}
+.eight .last p{
+    color: white;
+}
+.eight .flex form{
+    padding: 30px;
+    border: 1px solid rgb(129, 128, 128);
+    border-radius: 10px;
+    background-color: rgb(46, 46, 46);
+}
+.eight .flex form label{
+    color: white;
+    margin-bottom: 10px;
+}
+.eight .combine{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.eight .combine div,
+.formdiv{
+    display: flex;
+    flex-direction: column;
+}
+.eight form input,
+textarea{
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(231, 226, 226);
+    border-radius: 10px;
+    border: 1px solid rgb(137, 136, 136);
+    background: none;
+}
+.eight button{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px;
+    background-color: rgb(71, 132, 194);
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    color: white;
+}
+.eight .flex .address i{
+    color: white;
+    border-radius: 10px;
+}
+.eight .flex .address .touch{
+    display: flex;
+    gap: 10px;
+}
+.eight .flex .touch .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    background-color: rgb(24, 40, 56);
+    font-size: 20px;
+}
+.eight button:hover{
+    background-color: rgb(7, 128, 250);
+}
+.nine{
+    background-color: rgb(18, 17, 17);
+}
+.nine .footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.nine .contain{
+    max-width: 75rem;
+    margin: auto;
+}
+.nine .up{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.nine .footer h1{
+    font-size: 20px;
+}
+.nine .middle{
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    color: white;
+}
+.nine .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.nine .bottom .green{
+    color: rgb(4, 81, 4);
+}
+.ten{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: white;
+}
+
+.ten button{
+    font-weight: 500;
+    color: rgb(124, 107, 107);
+    background-color: black;
+}
+.ten .button{
+    display: flex;
+    gap: 10px;
+}
+.ten button:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:720px) {
+
+    nav{display: none;}
+    header{justify-content:space-between; padding:20px;}
+    header .menu{display: block;}
+    .third{flex-wrap: wrap;}
+    .who{
+    padding: 20px;}
+    .fourth .list{flex-wrap: wrap;}
+    .fifth{flex-wrap: wrap;}
+    .eight .flex {flex-direction: column;}
+    .eight .flex .overflow{
+    width: 100%;}
+    .img{height: 500px;}
+}
+
+
+
+
+@media (max-width:320px) {
+    .img{height: 400px;}
+    .seven .one{flex-wrap: wrap;}
+    .eight .flex{flex-wrap: wrap;}
+    .nine .footer{flex-wrap: wrap;}
+    .eight .tail h1{font-size: 30px;}
+    .fourth h1{font-size: 30px;}
+    .five h1{font-size: 30px;}
+    .next h1{font-size: 30px;}
+    .hero .text{font-size: 15px;}
+    .subhero{flex-wrap: wrap;}
+    
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="h1">
+        hello world
+    </h1>
+    <button>stle now</button>
+    <button id="btn">show alert</button>
+
+
+    <script>
+        //html text
+
+        document.getElementById("h1").innerHTML = "hi world";
+        
+        const btn = document.getElementById("btn");
+        btn.addEventListener("click", showAlert);
+
+        function styleFunc(){
+            btn.style.padding = "10px 20px";
+            btn.style.color = "white";
+            btn.style.backgroundColor = "rgb(71, 132, 194)"
+        }
+
+        function showAlert(){
+            alert("show alert")
+        }
+       
+        function add(a,b){
+            let answer = a+b;
+            alert(answer);
+        }
+        
+       // add(9,2)
+
+
+       function user(firstName, lastName){
+        let about = `my firstname is ${firstName} and my lastname is ${lastName}`
+        alert(about)
+       }
+
+       user("Godwin", "Mangai")
+
+    </script>
+
+</body>
+</html>
