@@ -19,5 +19,37 @@
             </nav>
         </header>
     </section>
+    
+
+    <script>
+        console.log("first");
+        console.log("second");
+        console.log("third");
+
+
+        setTimeout(()=>{
+            console.log("1st");}, 7000);
+
+            console.log("2nd");
+
+        setTimeout(()=>{
+            console.log("3rd");}, 5000);
+
+            console.log("4th");
+
+
+        function secondFunction(){
+            console.log("inside secondfunction");}
+
+
+        async function greet(){console.log("Hello World!!!");}
+
+        await secondFunction() 
+        
+        console.log ("Goodbye!!");
+
+        greet();
+
+    </script>
 </body>
 </html>
